@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 16px;
+}
+body .author-info {
+  font-size: 0.875em;
+  color: rgb(55, 65, 81);
+  text-align: center;
+  margin-top: 1em;
+}
+body .author-info a {
+  text-decoration: none;
+}
+body main {
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+body main article.main-card img {
+  padding: 1.3em;
+  padding-bottom: 0.5em;
+  border-radius: 35px;
+}
+body main article.main-card section.text-region p#tag {
+  padding-left: 1.3em;
+}
+body main article.main-card section.text-region p#desc {
+  width: 80%;
+}
+
+/*# sourceMappingURL=styles.css.map */

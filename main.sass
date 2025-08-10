@@ -1,0 +1,110 @@
+*
+    /// Box Model
+    $margin: 0
+    $padding: 0
+    $box-sizing: 0
+
+
+
+    // Properties
+    margin: $margin
+    padding: $padding
+    box-sizing: $box-sizing
+body
+    /// Display
+    $body-display: flex
+    $body-justify-content: center
+    $body-align-items: center
+    $body-flex-direction: column
+    /// Width and Height
+    $body-height: 100vh
+
+    /// Font
+    $body-font-size: 16px
+
+
+
+    // Properties
+    display: $body-display
+    justify-content: $body-justify-content
+    align-items: $body-align-items
+    flex-direction: $body-flex-direction
+    height: $body-height
+    font-size: $body-font-size
+    .author-info
+        /// Font
+        $author-info-font-size: 0.875em
+        $author-info-text-align: center
+        $author-info-color: rgb(55, 65, 81)
+
+        /// Box Model
+        $author-info-margin-top: 1em
+
+
+
+        // Properties
+        font-size: $author-info-font-size
+        color: $author-info-color
+        text-align: $author-info-text-align
+        margin-top: $author-info-margin-top
+        a
+            /// Font
+            $author-info-a-text-decoration: none
+
+
+
+            // Properties
+            text-decoration: $author-info-a-text-decoration
+    main
+        /// Display
+        $main-display: flex 
+        $main-justify-content: center 
+        $main-align-items: center
+        /// Width Height
+        $main-width: 27%
+        /// Border
+        $main-border-radius: 5px
+        $main-box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08)
+
+
+
+        // Properties
+        width: $main-width
+        display: $main-display
+        justify-content: $main-justify-content
+        align-items: $main-align-items
+        border-radius: $main-border-radius
+        box-shadow: $main-box-shadow
+        article.main-card
+            img 
+                /// Box Model
+                $main-card-img-padding: 1.3em
+                $main-card-img-padding-bottom: 0.5em
+                /// Border
+                $main-card-img-border-radius: 35px
+
+
+
+                // Properties
+                padding: $main-card-img-padding
+                    bottom: $main-card-img-padding-bottom
+                border-radius: $main-card-img-border-radius
+            section.text-region
+                /// Width and Height
+                /// Paragraph Desc
+                $text-region-p-desc-width: 80%
+
+                /// Box Model
+                /// Paragraph Tag
+                $text-region-p-tag-padding-left: 1.3em
+                p#tag
+                    padding-left: $text-region-p-tag-padding-left
+                p#desc
+                    width: $text-region-p-desc-width
+
+
+
+
+
+
+
