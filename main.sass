@@ -81,7 +81,7 @@ body
                 $main-card-img-padding: 1.3em
                 $main-card-img-padding-bottom: 0.5em
                 /// Border
-                $main-card-img-border-radius: 35px
+                $main-card-img-border-radius: 30px // Change the border-radius to 25px
 
 
 
@@ -91,14 +91,70 @@ body
                 border-radius: $main-card-img-border-radius
             section.text-region
                 /// Width and Height
-                /// Paragraph Desc
+                // Paragraph Desc
                 $text-region-p-desc-width: 80%
 
                 /// Box Model
-                /// Paragraph Tag
-                $text-region-p-tag-padding-left: 1.3em
+                // Text-Region
+                $text-region-margin-left: 1.3em
+
+                // Paragraph Tag
+                $text-region-p-tag-padding-left-right: 1.3em
+                $text-region-p-tag-padding-top-bottom: 0.25em                                            
+                $text-region-p-tag-margin-bottom: 2em
+
+                // Heading 1
+                $text-region-h1-margin-bottom: 0.5em
+                
+                /// Font
+                // Paragraph Tag
+                $text-region-p-tag-font-family: "Sora"
+                $text-region-p-tag-font-size: 0.625em
+                $text-region-p-tag-font-weight: 500
+
+                // Heading 1
+                $text-region-h1-font-family: "Sora"
+                $text-region-h1-font-weight: 600              
+
+                /// Display
+                // Paragraph Text
+                $text-region-p-tag-display: inline-block
+
+                /// Colour
+                // Paragraph Text
+                $text-region-p-tag-background-color: #F2EAFD 
+                $text-region-p-tag-color: #7C19EE
+
+                /// Border
+                // Paragraph Text
+                $text-region-p-tag-border: 1px solid transparent
+                $text-region-p-tag-border-radius: 10px
+
+
+
+                // Properties
+                margin-left: $text-region-margin-left
                 p#tag
-                    padding-left: $text-region-p-tag-padding-left
+                    padding:
+                        left: $text-region-p-tag-padding-left-right
+                        right: $text-region-p-tag-padding-left-right
+                        top: $text-region-p-tag-padding-top-bottom
+                        bottom: $text-region-p-tag-padding-top-bottom
+                    font:
+                        family: $text-region-p-tag-font-family
+                        size: $text-region-p-tag-font-size
+                        weight: $text-region-p-tag-font-weight
+                    border: $text-region-p-tag-border
+                        radius: $text-region-p-tag-border-radius
+                    background-color: $text-region-p-tag-background-color
+                    display: $text-region-p-tag-display
+                    margin-bottom: $text-region-p-tag-margin-bottom
+                    color: $text-region-p-tag-color
+                h1
+                    font:
+                        family: $text-region-h1-font-family
+                        weight: $text-region-h1-font-weight
+                    margin-bottom: $text-region-h1-margin-bottom
                 p#desc
                     width: $text-region-p-desc-width
 
